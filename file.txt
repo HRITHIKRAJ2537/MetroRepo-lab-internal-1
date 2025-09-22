@@ -1,0 +1,26 @@
+you have updated pom.xml and your maven is still using old cache dependencies how do you clear local and cache
+
+cmd and also how to remove existing remote fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote remove  https://github.com/anujyog1/MetroRepo.git (fetch)
+bash: syntax error near unexpected token `('
+
+fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote remove  https://github.com/anujyog1/MetroRepo.git
+error: No such remote: 'https://github.com/anujyog1/MetroRepo.git'
+
+fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote remove https://github.com/anujyog1/MetroRepo.git
+error: No such remote: 'https://github.com/anujyog1/MetroRepo.git'
+
+fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote -v
+origin  https://github.com/anujyog1/MetroRepo.git (fetch)
+origin  https://github.com/anujyog1/MetroRepo.git (push)
+
+fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote add origin https://github.com/HRITHIKRAJ2537/MetroRepo-lab-internal
+-1.git
+error: remote origin already exists.
+
+fs@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$

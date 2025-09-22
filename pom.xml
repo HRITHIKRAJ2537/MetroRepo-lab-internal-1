@@ -21,7 +21,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version> 
-            <scope>provided</scope> 
+            <scope>test</scope> 
+        </dependency>
+         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>3.1.14</version> 
+            <scope>runtime</scope> 
         </dependency>
 
                
@@ -29,5 +35,10 @@
 
     <build>
         <finalName>BookMetroTicket</finalName>
+        <plugins>
+         <plugin><groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.13.0</version></plugin>
+        </plugins>
     </build>
 </project>
