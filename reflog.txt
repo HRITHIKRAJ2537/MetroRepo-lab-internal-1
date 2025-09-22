@@ -1,0 +1,14 @@
+674fc29 HEAD@{0}: checkout: moving from master to Ui-fixes
+954241a HEAD@{1}: checkout: moving from main to master
+b32a6bb HEAD@{2}: checkout: moving from main to main
+b32a6bb HEAD@{3}: checkout: moving from booking-module to main
+38e5bd5 HEAD@{4}: commit: added booking module
+674fc29 HEAD@{5}: checkout: moving from Ui-fixes to booking-module
+674fc29 HEAD@{6}: commit: .
+b32a6bb HEAD@{7}: checkout: moving from main to Ui-fixes
+b32a6bb HEAD@{8}: reset: moving to b32a6bba22e90a1bcb4c548c0e8634cb9deba158
+b32a6bb HEAD@{9}: commit: UI-fixes
+954241a HEAD@{10}: checkout: moving from master to main
+954241a HEAD@{11}: commit: resolved pom.xml and added repo to git
+8420534 HEAD@{12}: commit: first commit resolved pom.xml
+b0e4579 HEAD@{13}: 
